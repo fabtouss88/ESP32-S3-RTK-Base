@@ -1,3 +1,9 @@
+/*************************************************************************************************/
+/*   prog esp s3 devkit de base + lc29hea en mode serie + antenne (k700)                         */  
+/*        le c dans le .ino  + le html  "index.html.h" dans les #include                         */
+/*        core 1 : gestion temps reel : lecture uart /decodage nmea /caster local + onocoy       */
+/*        core 2 :interface web / ota / connerie estethique /wifi                                */
+/*************************************************************************************************/
 #include <WiFi.h>
 #include <WebServer.h>
 #include <vector>
